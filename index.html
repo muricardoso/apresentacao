@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Murilo Cardoso">
-    <title>Apresentação Pessoal - Murilo Cardoso</title>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Murilo Cardoso">
+  <title>Apresentação Pessoal - Murilo Cardoso</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/accordion.css">
+  <link rel="stylesheet" href="/css/_colors.css">
+
+
 </head>
+
 <body>
-    <div id="content">
+  <div id="content">
+    <div class="container-info-personal background-blue-primary">
+
+      <header>
+        <img class="image-person" src="/images/account_circle_black.svg" alt="Imagem do rosto da pessoa">
+        <h2 class="grey-primary">Murilo Cardoso Correia</h2>
+        <hr>
+        <h3 class="grey-primary">Engenheiro de Software</h3>           
+      </header>
+      <input id="collapsible" class="toggle" type="checkbox">
+      <label for="collapsible" class="lbl-toggle grey-primary">Mais informações</label>
+      <div class="collapsible-content background-blue-secondary">
+        <section class="content-inner">
+            <div class="section-title">
+              <svg class="icons-sections" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+              <span class="title grey-primary">Perfil</span>
+            </div>
+            <p class="content-infos-data grey-primary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ad.
+            </p>
+        </section>
+        <section class="content-inner">
+            <div class="section-title">
+              <svg class="icons-sections" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><rect fill="none" height="24" width="24"/><path d="M7.02,13c-2.21,0-4,1.79-4,4s1.79,4,4,4s4-1.79,4-4S9.23,13,7.02,13z M7.02,19c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2 S8.12,19,7.02,19z M13,13v8h8v-8H13z M19,19h-4v-4h4V19z M7,2l-5,9h10L7,2z M7,6.12L8.6,9H5.4L7,6.12z M19.25,2.5 c-1.06,0-1.81,0.56-2.25,1.17c-0.44-0.61-1.19-1.17-2.25-1.17C13.19,2.5,12,3.78,12,5.25c0,2,2.42,3.42,5,5.75 c2.58-2.33,5-3.75,5-5.75C22,3.78,20.81,2.5,19.25,2.5z M17,8.35c-1.45-1.22-3-2.4-3-3.1c0-0.43,0.35-0.75,0.75-0.75 c0.31,0,0.52,0.17,0.73,0.37L17,6.3l1.52-1.43c0.21-0.2,0.42-0.37,0.73-0.37c0.4,0,0.75,0.32,0.75,0.75C20,5.95,18.45,7.13,17,8.35z"/></svg>
+              <span class="title grey-primary">Hobby</span>
+            </div>
+            <div class="section-texts content-infos-data">
+              <svg class="icons-texts-sections" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13,5.3l1.35-0.95 c1.82,0.56,3.37,1.76,4.38,3.34l-0.39,1.34l-1.35,0.46L13,6.7V5.3z M9.65,4.35L11,5.3v1.4L7.01,9.49L5.66,9.03L5.27,7.69 C6.28,6.12,7.83,4.92,9.65,4.35z M7.08,17.11l-1.14,0.1C4.73,15.81,4,13.99,4,12c0-0.12,0.01-0.23,0.02-0.35l1-0.73L6.4,11.4 l1.46,4.34L7.08,17.11z M14.5,19.59C13.71,19.85,12.87,20,12,20s-1.71-0.15-2.5-0.41l-0.69-1.49L9.45,17h5.11l0.64,1.11 L14.5,19.59z M14.27,15H9.73l-1.35-4.02L12,8.44l3.63,2.54L14.27,15z M18.06,17.21l-1.14-0.1l-0.79-1.37l1.46-4.34l1.39-0.47 l1,0.73C19.99,11.77,20,11.88,20,12C20,13.99,19.27,15.81,18.06,17.21z"/></g></g></svg>
+              <div class="grey-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ad.
+              </div>
+            </div> 
+            <div class="section-texts content-infos-data">
+              <svg class="icons-texts-sections" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13,5.3l1.35-0.95 c1.82,0.56,3.37,1.76,4.38,3.34l-0.39,1.34l-1.35,0.46L13,6.7V5.3z M9.65,4.35L11,5.3v1.4L7.01,9.49L5.66,9.03L5.27,7.69 C6.28,6.12,7.83,4.92,9.65,4.35z M7.08,17.11l-1.14,0.1C4.73,15.81,4,13.99,4,12c0-0.12,0.01-0.23,0.02-0.35l1-0.73L6.4,11.4 l1.46,4.34L7.08,17.11z M14.5,19.59C13.71,19.85,12.87,20,12,20s-1.71-0.15-2.5-0.41l-0.69-1.49L9.45,17h5.11l0.64,1.11 L14.5,19.59z M14.27,15H9.73l-1.35-4.02L12,8.44l3.63,2.54L14.27,15z M18.06,17.21l-1.14-0.1l-0.79-1.37l1.46-4.34l1.39-0.47 l1,0.73C19.99,11.77,20,11.88,20,12C20,13.99,19.27,15.81,18.06,17.21z"/></g></g></svg>
+              <div class="grey-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ad.
+              </div>
+            </div>        
+        </section>
+        <section class="content-inner">
+            <div class="section-title">
+              <svg class="icons-sections" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><rect fill="none" height="24" width="24"/><path d="M7.02,13c-2.21,0-4,1.79-4,4s1.79,4,4,4s4-1.79,4-4S9.23,13,7.02,13z M7.02,19c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2 S8.12,19,7.02,19z M13,13v8h8v-8H13z M19,19h-4v-4h4V19z M7,2l-5,9h10L7,2z M7,6.12L8.6,9H5.4L7,6.12z M19.25,2.5 c-1.06,0-1.81,0.56-2.25,1.17c-0.44-0.61-1.19-1.17-2.25-1.17C13.19,2.5,12,3.78,12,5.25c0,2,2.42,3.42,5,5.75 c2.58-2.33,5-3.75,5-5.75C22,3.78,20.81,2.5,19.25,2.5z M17,8.35c-1.45-1.22-3-2.4-3-3.1c0-0.43,0.35-0.75,0.75-0.75 c0.31,0,0.52,0.17,0.73,0.37L17,6.3l1.52-1.43c0.21-0.2,0.42-0.37,0.73-0.37c0.4,0,0.75,0.32,0.75,0.75C20,5.95,18.45,7.13,17,8.35z"/></svg>
+              <span class="title grey-primary">Hobby</span>
+            </div>
+            <div class="section-texts content-infos-data">
+              <svg class="icons-texts-sections" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13,5.3l1.35-0.95 c1.82,0.56,3.37,1.76,4.38,3.34l-0.39,1.34l-1.35,0.46L13,6.7V5.3z M9.65,4.35L11,5.3v1.4L7.01,9.49L5.66,9.03L5.27,7.69 C6.28,6.12,7.83,4.92,9.65,4.35z M7.08,17.11l-1.14,0.1C4.73,15.81,4,13.99,4,12c0-0.12,0.01-0.23,0.02-0.35l1-0.73L6.4,11.4 l1.46,4.34L7.08,17.11z M14.5,19.59C13.71,19.85,12.87,20,12,20s-1.71-0.15-2.5-0.41l-0.69-1.49L9.45,17h5.11l0.64,1.11 L14.5,19.59z M14.27,15H9.73l-1.35-4.02L12,8.44l3.63,2.54L14.27,15z M18.06,17.21l-1.14-0.1l-0.79-1.37l1.46-4.34l1.39-0.47 l1,0.73C19.99,11.77,20,11.88,20,12C20,13.99,19.27,15.81,18.06,17.21z"/></g></g></svg>
+              <div class="grey-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ad.
+              </div>
+            </div>
+            <div class="section-texts content-infos-data">
+              <svg class="icons-texts-sections" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13,5.3l1.35-0.95 c1.82,0.56,3.37,1.76,4.38,3.34l-0.39,1.34l-1.35,0.46L13,6.7V5.3z M9.65,4.35L11,5.3v1.4L7.01,9.49L5.66,9.03L5.27,7.69 C6.28,6.12,7.83,4.92,9.65,4.35z M7.08,17.11l-1.14,0.1C4.73,15.81,4,13.99,4,12c0-0.12,0.01-0.23,0.02-0.35l1-0.73L6.4,11.4 l1.46,4.34L7.08,17.11z M14.5,19.59C13.71,19.85,12.87,20,12,20s-1.71-0.15-2.5-0.41l-0.69-1.49L9.45,17h5.11l0.64,1.11 L14.5,19.59z M14.27,15H9.73l-1.35-4.02L12,8.44l3.63,2.54L14.27,15z M18.06,17.21l-1.14-0.1l-0.79-1.37l1.46-4.34l1.39-0.47 l1,0.73C19.99,11.77,20,11.88,20,12C20,13.99,19.27,15.81,18.06,17.21z"/></g></g></svg>
+              <div class="grey-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ad.
+              </div>
+            </div> 
+        </section>
+      </div>
 
     </div>
+    <!-- <div class="container-info-vocational">
+      APRESENTACAO PROFISSIONAL
+    </div> -->
+  </div>
 </body>
+
 </html>

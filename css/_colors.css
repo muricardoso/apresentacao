@@ -1,0 +1,29 @@
+:root {
+    --white: #FFFFFF;
+    --grey-primary: #F5F5F5;
+    --blue-primary: #2E4664;
+    --blue-secondary: #344F70;
+    
+
+}
+.background-grey-primary {
+    background-color: var(--grey-primary);
+}
+.background-blue-primary {
+    background-color: var(--blue-primary);
+}
+.background-blue-secondary {
+    background-color: var(--blue-secondary);
+}
+.color-white {
+    color: var(--white);
+}
+.grey-primary {
+    color: var(--grey-primary);
+}
+.color-blue-primary {
+    color: var(--blue-primary);
+}
+.color-blue-secondary {
+    color: var(--blue-secondary);
+}
