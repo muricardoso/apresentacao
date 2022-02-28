@@ -1,10 +1,9 @@
 :root {
     --white: #FFFFFF;
     --grey-primary: #F5F5F5;
+    --grey-secondary: #B5B5B5;
     --blue-primary: #2E4664;
     --blue-secondary: #344F70;
-    
-
 }
 .background-grey-primary {
     background-color: var(--grey-primary);
