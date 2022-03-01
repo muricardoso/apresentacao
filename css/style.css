@@ -38,6 +38,15 @@ hr {
     width: 100%;
     max-width: 80px;
     max-height: 80px;
+    border-radius: 100%;
+}
+.name-midias {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+.name-midias i {
+    cursor: pointer;
 }
 .section-title {
     display: flex;
@@ -63,6 +72,7 @@ svg.icons-texts-sections {
 }
 .content-infos-data {
     margin-left: 20px;
+    line-height: 25px;
 }
 .section-texts {
     margin-top: 10px;
@@ -82,7 +92,9 @@ svg.icons-sections-vocational {
     fill: var(--blue-primary);
     margin-right: 10px;
 }
-
+.navigate-page:hover {
+    color:  var(--white);
+}
 .info-vocational {
     display:flex;
     margin-top: 10px;
@@ -171,6 +183,7 @@ svg.icons-sections-vocational {
         height: 100%;
     }
     .container-info-personal {
+        min-width: 450px;
         max-width: 500px;
     }
     .container-info-vocational {
@@ -181,3 +194,42 @@ svg.icons-sections-vocational {
         overflow-y: auto;
     }
 }
+
+
+
+
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'Ver mais';
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Ver menos';
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: var(--grey-primary);
+    font-size: .9em;
+    line-height: 2;
+    text-decoration: underline;
+    font-weight: 600;
+  }

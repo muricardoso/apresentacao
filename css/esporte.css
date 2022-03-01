@@ -1,0 +1,41 @@
+.font-bold {
+    font-weight: 600;
+}
+.container-info-vocational {
+    padding: 10px;
+    margin: 0;
+    padding: 0 0 0 4rem;
+}
+.back {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--white);
+}
+.info-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 0;
+}
+.container-text-vocational {
+    padding: 10px;
+}
+.container-cards .card {
+    background-color: var(--white);
+    max-width: 300px;
+    box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.53);
+    border-radius: 10px;
+    margin: 0;
+    min-height: 400px;
+}
+.card img{
+   width: 100%;
+   border-radius: 10px;
+   height: 200px;    
+}
