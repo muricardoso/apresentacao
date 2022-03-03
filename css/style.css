@@ -175,6 +175,13 @@ svg.icons-sections-vocational {
 .title-skill {
     font-weight: 600;
 }
+.section-texts-links {
+    align-items: center;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+}
 @media (min-width: 1000px) { 
     #content {
         flex-direction: row;
